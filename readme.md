@@ -1,6 +1,3 @@
-Here’s a more detailed and polished **README** for your **Flipkart Price Tracker** project. 🚀  
-
----
 
 # 🛒 Flipkart Price Tracker  
 A **Python-based automated price tracking system** that scrapes product prices from **Flipkart**, monitors price fluctuations over time, and **sends email alerts** when a product's price falls below a user-defined threshold.  
@@ -20,52 +17,6 @@ A **Python-based automated price tracking system** that scrapes product prices f
 ✅ **Graph Generation** – Saves price trends as images  
 ✅ **CSV Storage** – Stores scraped data for future reference  
 ✅ **Efficient Data Cleaning** – Removes unwanted text from product names  
-
----
-
-## 🏗️ Project Structure  
-
-```
-📂 Flipkart_PriceTracker  
-├── 📄 init.py              # Initial scraper to fetch product data  
-├── 📄 tracker.py           # Core price tracking logic  
-├── 📄 scheduler.py         # Automates tracking every 30 minutes  
-├── 📄 send_email.py        # Sends price drop alerts via email  
-├── 📄 gui.py               # User interface (Tkinter)  
-├── 📄 graph.py             # Generates price trend graphs  
-├── 📄 spaceremover.py      # Cleans up scraped product names  
-├── 📄 FlipkartWebScraperDataset.csv  # Stores price history  
-├── 📄 data.csv             # Stores user preferences (URLs, thresholds, emails)  
-```
-
----
-
-## 🛠️ Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/Devansh032/Flipkart_PriceTracker.git  
-cd Flipkart_PriceTracker
-```
-
-### 2️⃣ Install Required Dependencies  
-```sh
-pip install -r requirements.txt
-```
-
-### 3️⃣ Run the GUI (For User Input)  
-```sh
-python gui.py
-```
-- Enter **Flipkart product URL**, **Threshold Price**, and **Email**  
-- Click **Submit** to store the details  
-
-### 4️⃣ Start Automated Price Tracking  
-```sh
-python scheduler.py
-```
-- Runs **every 30 minutes** to check prices  
-- Sends **email alerts** when the price is below the threshold  
 
 ---
 
